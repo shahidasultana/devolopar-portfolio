@@ -11,12 +11,13 @@ body{
 /*nav releted styles*/
 nav{
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     align-items: center;
+    margin: 0px 200px ;
 }
 .btn-primary {
     border-radius: 5px;
-    background-color: #FD6E0A;
+    background: #FD6E0A;
     border:0  
     color: white;
     font-size: 20px;
@@ -39,4 +40,15 @@ nav li {
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.header{
+    background-color:#FFF8F3 ;
+}
+.bannar{
+    padding:30px 30px 30px 200px ;
+    display: flex ;
+    align-items: center;
+}
+.bannar .profile-pic{
+    width: 500px;
 }
